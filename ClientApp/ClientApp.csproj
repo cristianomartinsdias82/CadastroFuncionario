@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\**" />
+    <Content Remove="lib\**" />
+    <EmbeddedResource Remove="lib\**" />
+    <None Remove="lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\libs\" />
+  </ItemGroup>
+
+  <Target Name="CopyFiles" BeforeTargets="BeforeBuild">
+    <Copy SourceFiles="E:\Codebase\_.NET Solutions\Core\5.x\TesteJPVTech\ClientApp\default.html" DestinationFolder=".\wwwroot" />
+    <Copy SourceFiles="E:\Codebase\_.NET Solutions\Core\5.x\TesteJPVTech\ClientApp\js\default.js" DestinationFolder=".\wwwroot\js" />
+    <Copy SourceFiles="E:\Codebase\_.NET Solutions\Core\5.x\TesteJPVTech\ClientApp\css\default.css" DestinationFolder=".\wwwroot\css" />
+    <Copy SourceFiles="E:\Codebase\_.NET Solutions\Core\5.x\TesteJPVTech\ClientApp\js\default-form-validation-rules.js" DestinationFolder=".\wwwroot\js" />
+  </Target>
+
+</Project>

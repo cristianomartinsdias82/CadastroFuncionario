@@ -1,0 +1,6 @@
+FAILED dotnet ef migrations add "Initial" --project src\ServerApp.Infrastructure --startup-project src\ServerApp --output-dir Repository\Ef\Migrations
+
+(Point to solution root folder!)
+dotnet ef migrations add Initial -o Persistence\Ef\Migrations --project ServerApp.Infrastructure
+
+dotnet ef database update --project ServerApp.Infrastructure

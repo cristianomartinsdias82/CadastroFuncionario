@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./libs/bsdatepicker/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="./css/default.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <form novalidate id="registrationForm" name="registrationForm" autocomplete="off" method="post" action="">
+                    <fieldset>
+                        <legend>Dados do funcionário</legend>
+                        <div class="form-group">
+                            <label for="fullName">Nome completo</label>
+                            <input class="form-control" id="fullName" name="fullName" maxlength="80" />
+                        </div>
+                        <div class="form-group">
+                            <label for="ssn">CPF</label>
+                            <input class="form-control" id="ssn" name="ssn" maxlength="14" />
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Data de nascimento</label>
+                            <input class="form-control" id="dob" name="dob" maxlength="10" />
+                        </div>
+                        <div class="form-group">
+                            <label for="salary">Salário</label>
+                            <input class="form-control" id="salary" name="salary" />
+                        </div>
+                        <button id="submitButton" name="submitButton" type="button" class="btn btn-primary">Salvar</button>
+                        <button id="clearButton" name="clearButton" type="button" class="btn btn-danger">Limpar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="operationsMessageModal" data-backdrop="static" data-keyboard="false" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnCloseModal" class="btn btn-primary">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./libs/jqueryval/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./libs/bsdatepicker/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="./libs/bsdatepicker/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script type="text/javascript" src="./libs/jquerymaskedinput/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="./libs/jquerymaskmoney/jquery.maskMoney.min.js"></script>
+    <script type="text/javascript" src="./js/default-form-validation-rules.js"></script>
+    <script type="text/javascript" src="./js/default.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+https://blog.elmah.io/msbuild-tutorial/ -> How to configure MSBuild to, for example, copy files from one lace to another, among ohter things
+https://www.tutorialsteacher.com/core/aspnet-core-static-file -> How to have a static default html file being served
+https://docs.microsoft.com/en-us/visualstudio/msbuild/copy-task?view=vs-2019 -> How to automatically copy files to another directory when building
+https://www.c-sharpcorner.com/article/client-side-package-management-with-library-manager-in-visual-studio-2017libman/ -> How to add client libraries with Lib Manager (1 of 2)
+https://www.youtube.com/watch?v=TkiXANkASNM -> How to add client libraries with Lib Manager (2 of 2)
+https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-5.0 -> How to allow cross-origin requests
+https://www.sitepoint.com/10-jquery-currencyprice-plugins/ -> A list containing some options form currency field formatting
+https://stackoverflow.com/questions/5965634/is-it-possible-to-change-the-error-class-name-on-jquery-validate -> (jQuery Validate) How to override invalid fields css class
+
+https://jqueryvalidation.org/valid/ -> (jQuery Validate) How to program your form to trigger validation feature
+https://www.youtube.com/watch?v=yaxUV3Ib4vM (jQuery Validate) Getting started quick demo
+https://jqueryvalidation.org/category/methods/ (jQuery Validate) How to create a rules json (required attr, messages for required attr, etc)
+
+https://getbootstrap.com/docs/4.6/components/forms/ -> Bootstrap 4.6 Forms examples
+
+https://github.com/jasontaylordev/CleanArchitecture -> Clean architecture + EF Commands
+https://stackoverflow.com/questions/26957519/ef-core-mapping-entitytypeconfiguration -> EF Entity type mapping
+https://www.jerriepelser.com/blog/setting-thread-culture-aspnet5/ -> Fancy way to configure thread Culture on the server side
+https://stackoverflow.com/questions/8517071/send-json-data-via-post-ajax-and-receive-json-response-from-controller-mvc -> I forgot to JSON.strinhigy data to send to the server!
+
+https://bootstrap-datepicker.readthedocs.io/en/latest/ -> Bootstrap DatePicker widget
+https://bootstrap-datepicker.readthedocs.io/en/stable/i18n.html -> How to configure BsDatePicker to use pt-br locale
+https://bootstrap-datepicker.readthedocs.io/en/latest/methods.html -> How to get a Date javascript object from the datepicker field
+
+https://getbootstrap.com/docs/4.6/components/modal/ -> Bootstrap modal use (html, initialization and events ui logic)
